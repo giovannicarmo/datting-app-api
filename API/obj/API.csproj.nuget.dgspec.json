@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/home/giovannicarmo/dev/datting-app-api/API/API.csproj": {}
+    "/home/giovanni_carmo/Documentos/estudos/datting-app-api/API/API.csproj": {}
   },
   "projects": {
-    "/home/giovannicarmo/dev/datting-app-api/API/API.csproj": {
+    "/home/giovanni_carmo/Documentos/estudos/datting-app-api/API/API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/giovannicarmo/dev/datting-app-api/API/API.csproj",
+        "projectUniqueName": "/home/giovanni_carmo/Documentos/estudos/datting-app-api/API/API.csproj",
         "projectName": "API",
-        "projectPath": "/home/giovannicarmo/dev/datting-app-api/API/API.csproj",
-        "packagesPath": "/home/giovannicarmo/.nuget/packages/",
-        "outputPath": "/home/giovannicarmo/dev/datting-app-api/API/obj/",
+        "projectPath": "/home/giovanni_carmo/Documentos/estudos/datting-app-api/API/API.csproj",
+        "packagesPath": "/home/giovanni_carmo/.nuget/packages/",
+        "outputPath": "/home/giovanni_carmo/Documentos/estudos/datting-app-api/API/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/giovannicarmo/.nuget/NuGet/NuGet.Config"
+          "/home/giovanni_carmo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -89,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }
