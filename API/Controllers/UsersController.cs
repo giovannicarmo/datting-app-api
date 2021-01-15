@@ -7,6 +7,7 @@ using Microsoft.Extensions.Logging;
 using Data;
 using Domain;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace API.Controllers
 {
@@ -18,9 +19,11 @@ namespace API.Controllers
         public UsersController(DataContext context) => _context = context;
 
         [HttpGet]
+        [AllowAnonymous]
         public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers() 
             => await _context.Users.ToListAsync();
 
+        [Authorize]
         [HttpGet("{id}")]
         public async Task<ActionResult<AppUser>> GetUser(int id)
             => await _context.Users.FindAsync(id);
